@@ -1,0 +1,10 @@
+.filter {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.filter>* {
+    display: block;
+    margin: 0 10px;
+}

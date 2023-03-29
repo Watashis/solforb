@@ -1,0 +1,14 @@
+.item {
+    display: flex;
+    margin: 10px 0;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.item>* {
+    margin-left: 10px;
+}
+
+.btnBox>* {
+    margin: 10px 3px;
+}

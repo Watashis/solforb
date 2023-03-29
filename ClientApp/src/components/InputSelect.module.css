@@ -1,0 +1,20 @@
+.block {
+    position: relative;
+    display: flex;
+}
+
+.select {
+    position: absolute;
+    width: 100%;
+    margin-top: 30px;
+    z-index: 9999;
+    display: none;
+    overflow: auto;
+}
+.select.active{
+    display: inline-block;
+    z-index: 9999;
+}
+.select>option:hover{
+    background: #00000021;
+}

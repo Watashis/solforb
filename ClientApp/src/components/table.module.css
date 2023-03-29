@@ -1,0 +1,6 @@
+.tr{
+    cursor: pointer;
+}
+.tr:hover {
+    box-shadow: inset 0 -0.5px 0px 2px #00000073;
+}

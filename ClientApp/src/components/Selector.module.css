@@ -1,0 +1,40 @@
+.selector {
+    position: relative;
+}
+
+.selected {
+    display: flex;
+    border: 1px solid;
+    padding: 3px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.selectedItem {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 1px solid;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.close {
+    color: red;
+    margin: 0 3px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.select {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+.active{
+    opacity: 1;
+    visibility: visible;
+}
